@@ -1,0 +1,380 @@
+@media (max-width: 768px) {
+        .carousel-inner .carousel-item>div {
+            display: none;
+        }
+
+        .carousel-inner .carousel-item>div:first-child {
+            display: block;
+        }
+    }
+
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-start,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        display: flex;
+        /* // transition-duration: 10s; */
+    }
+
+    /* display 4 */
+    @media (min-width: 768px) {
+
+        .carousel-inner .carousel-item-right.active,
+        .carousel-inner .carousel-item-next,
+        .carousel-item-next:not(.carousel-item-start) {
+            transform: translateX(25%) !important;
+        }
+
+        .carousel-inner .carousel-item-left.active,
+        .carousel-item-prev:not(.carousel-item-end),
+        .active.carousel-item-start,
+        .carousel-item-prev:not(.carousel-item-end) {
+            transform: translateX(-25%) !important;
+        }
+
+        .carousel-item-next.carousel-item-start,
+        .active.carousel-item-end {
+            transform: translateX(0) !important;
+        }
+
+        .carousel-inner .carousel-item-prev,
+        .carousel-item-prev:not(.carousel-item-end) {
+            transform: translateX(-25%) !important;
+        }
+    }
+
+    /* 4step */
+    .step-circle {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        color: #fff;
+        margin: 0 auto 10px;
+    }
+
+    .step-1 {
+        background-color: #fdd9a1;
+        /* Light orange */
+    }
+
+    .step-2 {
+        background-color: #d4ebf9;
+        /* Light blue */
+    }
+
+    .step-3 {
+        background-color: #d5f6d3;
+        /* Light green */
+    }
+
+    .step-4 {
+        background-color: #d8d4f9;
+        /* Light purple */
+    }
+
+    /* .step-text {
+        text-align: center;
+    } */
+
+    .custom-flex-4 {
+        flex: 4;
+        /* Custom flex-grow */
+    }
+
+    /* vitamin */
+    .product-card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 15px;
+        text-align: center;
+        background: #fff;
+    }
+
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .badge-new {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #28a745;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 3px;
+        font-size: 0.8rem;
+    }
+
+    .discount {
+        color: #dc3545;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .stats-section {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .stats-section h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .stats-section p {
+        margin: 0;
+        font-size: 1rem;
+        color: #6c757d;
+    }
+
+    .divider {
+        width: 80%;
+        height: 2px;
+        background-color: #ffa500;
+        /* Orange */
+        margin: 20px auto;
+    }
+
+    .app-link-section {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .app-link-section input[type="text"] {
+        width: 250px;
+    }
+
+    .bg-aliceblue {
+        background-color: aliceblue !important;
+    }
+
+    div {
+        display: block;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+
+
+
+    .bbb_viewed {
+        padding-top: 51px;
+        padding-bottom: 60px;
+        background: #eff6fa
+    }
+
+    .bbb_main_container {
+        background-color: #fff;
+        padding: 11px;
+    }
+
+    .bbb_viewed_title_container {
+        border-bottom: solid 1px #dadada
+    }
+
+    .bbb_viewed_title {
+        margin-bottom: 16px;
+        margin-top: 8px;
+
+    }
+
+    .bbb_viewed_nav_container {
+        position: absolute;
+        right: -5px;
+        bottom: 14px
+    }
+
+    .bbb_viewed_nav {
+        display: inline-block;
+        cursor: pointer
+    }
+
+    .bbb_viewed_nav i {
+        color: #dadada;
+        font-size: 18px;
+        padding: 5px;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease
+    }
+
+    .bbb_viewed_nav:hover i {
+        color: #606264
+    }
+
+    .bbb_viewed_prev {
+        margin-right: 15px
+    }
+
+    .bbb_viewed_slider_container {
+        padding-top: 13px;
+    }
+
+    .bbb_viewed_item {
+        width: 100%;
+        background: #FFFFFF;
+        border-radius: 2px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .bbb_viewed_image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .bbb_viewed_image img {
+        display: block;
+        max-width: 100%
+    }
+
+    .bbb_viewed_content {
+        width: 100%;
+        margin-top: 25px
+    }
+
+    .bbb_viewed_price {
+        font-size: 16px;
+        color: #000000;
+        font-weight: 500
+    }
+
+    .bbb_viewed_item.discount .bbb_viewed_price {
+        color: #df3b3b
+    }
+
+    .bbb_viewed_price span {
+        position: relative;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.6);
+        margin-left: 8px
+    }
+
+    .bbb_viewed_price span::after {
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: -2px;
+        width: calc(100% + 4px);
+        height: 1px;
+        background: #8d8d8d;
+        content: ''
+    }
+
+    .bbb_viewed_name {
+        margin-top: 3px
+    }
+
+    .bbb_viewed_name a {
+        font-size: 14px;
+        color: #000000;
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease
+    }
+
+    .bbb_viewed_name a:hover {
+        color: #0e8ce4
+    }
+
+    .item_marks {
+        position: absolute;
+        top: 18px;
+        left: 18px
+    }
+
+    .item_mark {
+        display: none;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        color: #FFFFFF;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .item_discount {
+        background: #df3b3b;
+        margin-right: 5px
+    }
+
+    .item_new {
+        background: #0e8ce4
+    }
+
+    .bbb_viewed_item.discount .item_discount {
+        display: inline-block
+    }
+
+    .bbb_viewed_item.is_new .item_new {
+        display: inline-block
+    }
+
+    .owl-carousel {
+        display: block !important;
+    }
+      /* Parallax effect */
+      .parallax {
+            position: relative;
+            background-image: url('img/banner1.jpg'); /* Replace with your image path */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .text-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 70px 0px 0 0px;
+            color: #6c757d;
+            margin: 0px 30px;
+        }
+
+        .footer h5 {
+            color: #212529;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #6c757d;
+        }
+
+        .footer a:hover {
+            color: #007bff;
+        }
+
+        .footer .social-icons a {
+            font-size: 1.2rem;
+            margin: 0 10px;
+            color: #6c757d;
+        }
+
+        .footer .social-icons a:hover {
+            color: #007bff;
+        }
